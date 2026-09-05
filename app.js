@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const PORT = 3000;
-const VERSION = '1.0';
+const VERSION = '2.0';
 app.get('/', (req, res) => {
  res.json({
  message: 'Hello from the CI/CD pipeline!',
